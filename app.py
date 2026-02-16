@@ -92,4 +92,6 @@ btn_submit.pack(pady=5)
 tk.Button(window, text="Create Account", command=switch_to_signup).pack()
 tk.Button(window, text="Back to Login", command=switch_to_login).pack(pady=5)
 
-window.mainloop()
+if __name__ == "__main__":
+    window.mainloop()
+
